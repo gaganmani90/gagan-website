@@ -13,6 +13,7 @@ export const NavigationBar = () => {
                         <Nav.Link href='/Projects'>Projects</Nav.Link>
                         <Nav.Link href='/Hobbies'>Hobbies</Nav.Link>
                         <Nav.Link href='/Mentorship'>Mentorship</Nav.Link>
+                        <Nav.Link href='/Contact'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
