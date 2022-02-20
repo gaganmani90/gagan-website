@@ -8,6 +8,7 @@ import {HobbiesScreen} from "./components/HobbiesScreen";
 import {MentorshipScreen} from "./components/MentorshipScreen";
 import {ContactScreen} from "./components/ContactScreen";
 import {HomeScreen} from "./components/HomeScreen";
+import {Footer} from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Contact' element={<ContactScreen />} />
             <Route path='/' element={<HomeScreen />} />
         </Routes>
+        <Footer />
     </div>
   );
 }
